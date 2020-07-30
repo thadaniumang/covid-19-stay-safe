@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <title>COVID 19 - Stay Safe</title>
+</head>
+<body class="text-gray-600 font-body">
+    <div class="md:grid md:grid-cols-4">   <!--Content Wrapper-->
+        
+        <!--Left Column Starts-->
+        <div class="md:col-span-1 md:flex md:justify-end">
+            <nav class="md:fixed">
+                <div class="text-gray-800 uppercase p-4 border-b border-gray-100 flex justify-between">
+                    <h1>
+                        <a href="/public/" class="hover:text-gray-900 hover:font-semibold">
+                            Covid-19
+                            <img class="w-4 inline-block ml-2" src="./images/logo.png" alt="Coronavirus">
+                        </a>
+                    </h1>
+                    <div id="hamburger" class="md:hidden">
+                        <div id="line-1"></div>
+                        <div id="line-2"></div>
+                        <div id="line-3"></div>
+                    </div>    
+                </div>
+                <ul class="hidden md:block pt-3" id="menu">
+                    <li class="flex justify-center md:justify-end">
+                        <a href="#Precautions" class="hover:text-gray-700 flex items-start pr-3">
+                            <span>Precautions</span>
+                            <svg class="w-5 ml-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </li>
+                    <li class="flex justify-center md:justify-end">
+                        <a href="#Symptoms" class="hover:text-gray-700 flex items-start pr-3">
+                            <span>Symptoms</span>
+                            <svg class="w-5 ml-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 1.944A11.954 11.954 0 012.166 5C2.056 5.649 2 6.319 2 7c0 5.225 3.34 9.67 8 11.317C14.66 16.67 18 12.225 18 7c0-.682-.057-1.35-.166-2.001A11.954 11.954 0 0110 1.944zM11 14a1 1 0 11-2 0 1 1 0 012 0zm0-7a1 1 0 10-2 0v3a1 1 0 102 0V7z" clip-rule="evenodd"></path></svg></a>
+                    </li>
+                    <li class="flex justify-center md:justify-end">
+                        <a href="#Myths" class="hover:text-gray-700 flex items-start pr-3">
+                            <span>Myths</span>
+                            <svg class="w-5 ml-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </li>
+                    <li class="flex justify-center md:justify-end">
+                        <a href="#Latest" class="hover:text-gray-700 flex items-start pr-3">
+                            <span>Latest</span>
+                            <svg class="w-5 ml-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M9.243 3.03a1 1 0 01.727 1.213L9.53 6h2.94l.56-2.243a1 1 0 111.94.486L14.53 6H17a1 1 0 110 2h-2.97l-1 4H15a1 1 0 110 2h-2.47l-.56 2.242a1 1 0 11-1.94-.485L10.47 14H7.53l-.56 2.242a1 1 0 11-1.94-.485L5.47 14H3a1 1 0 110-2h2.97l1-4H5a1 1 0 110-2h2.47l.56-2.243a1 1 0 011.213-.727zM9.03 8l-1 4h2.938l1-4H9.031z" clip-rule="evenodd"></path></svg>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!--Left Column Ends-->
+
+        <!--Right Column Starts-->
+        <main class="px-12 py-3 bg-gray-100 md:col-span-3">
+            <header>
+                <h2 class="text-5xl font-semibold text-gray-700">Stay Aware</h2>
+            </header>
+
+            <!--Precaution Cards Starts-->
+            <h4 class="text-gray-700 font-bold mt-12 pb-2 border-b border-color-200 text-center sm:text-left" id="Precautions">Precautions</h4>
+            <div class="my-3 md:grid md:grid-cols-2 lg:grid-cols-3 space-y-10 md:space-y-0 gap-10">
+                <!-- cards go here -->
+                <div class="card hover:shadow-xl mt-10 md:mt-0">
+                    <img class="w-full h-56 object-cover" src="./images/handshake.jpg" alt="handshake">
+                    <div class="m-3">
+                        <span class="md:text-lg">Avoid Hand Shakes</span>
+                        <span class="text-sm md:text-md block text-gray-500">Follow the tradition of joining hands to avoid any kind of contact, even with your close friends and family. It's safe for both of you.</span>
+                    </div>
+                </div>
+                <div class="card hover:shadow-xl">
+                    <img class="w-full h-56 object-cover" src="./images/wash-your-hands-500x500 (3).png" alt="handwash">
+                    <div class="m-3">
+                        <span class="md:text-lg">Wash Your Hands</span>
+                        <span class="text-sm md:text-md block text-gray-500">Use any soap or handwash to wash your hands for atleast 20 seconds. The duration doesn't matter much but do it properly, cleaning every edge.</span>
+                    </div>
+                </div>
+                <div class="card hover:shadow-xl">
+                    <img class="w-full h-56 object-fill" src="./images/social.png" alt="2m | 6ft">
+                    <div class="m-3">
+                        <span class="md:text-lg">Maintain Social Distancing</span>
+                        <span class="text-sm md:text-md block text-gray-500">Maintain atleast 3 feet distance from other people. 6 feet distance is the optimal one and staying at home is the best option</span>
+                    </div>
+                </div>
+                <div class="card hover:shadow-xl">
+                    <img class="w-full h-56 object-cover" src="./images/mask.png" alt="mask">
+                    <div class="m-3">
+                        <span class="md:text-lg">Wear a Face Mask</span>
+                        <span class="text-sm md:text-md block text-gray-500">Wear a mask always when you move out of your home, with no gaps near the nose and neck. Don't hang them around your chin. Wear it PROPERLY.</span>
+                    </div>
+                </div>
+                <div class="card hover:shadow-xl">
+                    <img class="w-full h-56 object-cover" src="./images/cover-mouth.png" alt="cover your nose">
+                    <div class="m-3">
+                        <span class="md:text-lg">Cover your Nose</span>
+                        <span class="text-sm md:text-md block text-gray-500">Cover your mouth and nose while coughing or sneezing, preferably with an handkerchief or a cloth. If you dont have one, cover it with your arm.</span>
+                    </div>
+                </div>
+                <div class="card hover:shadow-xl">
+                    <img class="w-full h-56 object-cover" src="./images/checklist.jpg" alt="Follow all">
+                    <div class="m-3">
+                        <span class="md:text-lg">Follow All Precautions</span>
+                        <span class="text-sm md:text-md block text-gray-500">Follow all the precautions mentioned. Failing to do even one of them is an invitation to Coronavirus, a virus which causes COVID-19. Follow all guidelines issued by the Government</span>
+                    </div>
+                </div>
+            </div>
+            <!--Precaution Cards Ends-->
+
+            <!--Symptoms Cards Starts-->
+            <h4 class="text-gray-700 font-bold mt-12 pb-2 border-b border-color-200 text-center sm:text-left" id="Symptoms">Symptoms</h4>
+            <div class="flex justify-center md:justify-around">
+                <div class="my-3 sm:grid sm:grid-cols-4 space-y-10 md:space-y-0 gap-10 pt-1 md:pt-2 lg:pt-3">
+                <!-- cards go here -->
+                    <div class="bg-white p-2 sm:mt-10 md:mt-0 hover:shadow-lg">
+                        <div class="circular-card">
+                            <img src="./images/cough.jpg" class="w-full object-cover" alt="Cough">
+                        </div>
+                        <div class="text-center pt-2">
+                            <p class="bg-white text-xl md:text-sm">Cough</p>
+                        </div>
+                    </div>
+                    <div class="bg-white p-2 hover:shadow-lg">
+                        <div class="circular-card">
+                            <img src="./images/fever.png" class="w-full object-cover" alt="Fever">
+                        </div>
+                        <div class="text-center pt-2">
+                            <p class="bg-white text-xl md:text-sm">Fever</p>
+                        </div>
+                    </div>
+                    <div class="bg-white p-2 hover:shadow-lg">
+                        <div class="circular-card">
+                            <img src="./images/breath.png" class="w-full object-cover" alt="Breathing problems">
+                        </div>
+                        <div class="text-center pt-2">
+                            <p class="bg-white text-xl md:text-sm">Difficulty in Breathing</p>
+                        </div>
+                    </div>
+                    <div class="bg-white p-2 hover:shadow-lg">
+                        <div class="circular-card">
+                            <img src="./images/smell.jpg" class="w-full object-cover" alt="Loss of Sense">
+                        </div>
+                        <div class="text-center pt-2">
+                            <p class="bg-white text-xl md:text-sm">Loss of sense of Taste or Smell</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-2 bg-white">
+                <p>
+                    Some other symptoms which are not quite relevant in India are: 
+                    <ul class="text-gray-700">
+                        <li class="hover:font-semibold">1.  Body Pain</li>
+                        <li class="hover:font-semibold">2.  Covid Toes</li>
+                        <li class="hover:font-semibold">3.  Chills and/or Repeated Shaking with Chills</li>
+                    </ul>
+                </p>
+            </div>
+            <!--Symptoms Cards Ends-->
+
+            <!--Myth Cards Starts-->
+            <h4 class="text-gray-700 font-bold mt-12 pb-2 border-b border-color-200 text-center sm:text-left" id="Myths">Myths</h4>
+            <p class="mt-2 text-center lg:text-left bg-white p-2">
+                First of all, If you develop COVID-19 Symptoms, immediately report it to a concerned medical practitioner.
+                The more you delay, the more you suffer. Don't experiment on remedies you hear from others unless told by
+                doctors. Completely isolate yourself in such cases and don't let anyone touch you for checking fever or 
+                something else. Doctors have special protective gears and equipments for doing so.
+            </p>
+            <div class="my-3 md:grid md:grid-cols-2 lg:grid-cols-3 space-y-10 md:space-y-0 gap-10">
+                <!-- cards go here -->
+                <div class="card hover:shadow-xl mt-10 md:mt-0">
+                    <img class="w-full h-56 object-cover" src="./images/5g.jpeg" alt="5G">
+                    <div class="m-3">
+                        <span class="md:text-lg">5G does not spread COVID-19</span>
+                        <span class="text-sm md:text-md block text-gray-500">COVID-19 is spread through respiratory droplets when an infected person coughs, sneezes or speaks or when people touch a contaminated surface through their eyes, nose and mouth. Viruses cannot travel on radio waves/mobile networks.</span>
+                    </div>
+                </div>
+                <div class="card hover:shadow-xl">
+                    <img class="w-full h-56 object-cover" src="./images/alcohol.jpg" alt="alcohol">
+                    <div class="m-3">
+                        <span class="md:text-lg">Alcohol is not a cure</span>
+                        <span class="text-sm md:text-md block text-gray-500">Drinking Alcohol does not cure COVID-19. Methanol which is rumoured to be effective is actually poisonous and deadly. Consumption of Alcohol is injurious to health and can cause other serious problems</span>
+                    </div>
+                </div>
+                <div class="card hover:shadow-xl">
+                    <img class="w-full h-56 object-fill" src="./images/antibiotics.jpeg" alt="antibiotics">
+                    <div class="m-3">
+                        <span class="md:text-lg">AntiBiotics cannot cure COVID-19</span>
+                        <span class="text-sm md:text-md block text-gray-500">COVID-19 is caused due to a virus, and not a bacteria. Antibiotics are effective against bacterias, not viruses. Only those poeple who develop some bacterial infection are given Antibiotics under medical examination.</span>
+                    </div>
+                </div>
+                <div class="card hover:shadow-xl">
+                    <img class="w-full h-56 object-cover" src="./images/oxygen.png" alt="oxygen">
+                    <div class="m-3">
+                        <span class="md:text-lg">Face Masks do not reduce Oxygen Levels</span>
+                        <span class="text-sm md:text-md block text-gray-500">The prolonged use of medical masks can be uncomfortable. However, it does not lead to CO2 intoxication nor oxygen deficiency. Make sure it fits properly and that it is tight enough to allow you to breathe normally. Do not re-use a disposable mask and change it as soon as it gets damp.</span>
+                    </div>
+                </div>
+                <div class="card hover:shadow-xl">
+                    <img class="w-full h-56 object-cover" src="./images/vitamin-c.jpeg" alt="Vitamin C">
+                    <div class="m-3">
+                        <span class="md:text-lg">Consuming Vitamin-C Tablets</span>
+                        <span class="text-sm md:text-md block text-gray-500">Vitamin-C tablets are not at all render people immune to COVID-19. Infact excess Vitamin C levels in your body can have various side effects. Follow your regular healthy diet and avoid taking any such supplements unless told by medical practitioners. They can be fatal.</span>
+                    </div>
+                </div>
+                <div class="card hover:shadow-xl">
+                    <img class="w-full h-56 object-cover" src="./images/lungs.jpg" alt="Lungs">
+                    <div class="m-3">
+                        <span class="md:text-lg">Holding your breath for 10 seconds</span>
+                        <span class="text-sm md:text-md block text-gray-500">The myth is that If you can hold your breath for 10 seconds, you don't have COVID-19 infection. However, almost 80% of the cases are asymptomatic, they don't have any symptoms. Also, not everyone suffering from COVID-19 can have breathing problems. Also, not everyone who has breathing problems have COVID-19.</span>
+                    </div>
+                </div>
+            </div>
+            <p class="mt-2 text-center md:text-left bg-white p-2">
+                For more Myth-Busters, refer 
+                <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters#saline" class="text-blue-500 hover:underline">WHO</a>
+                Official Site
+            </p>
+            <div class="flex justify-end mt-2 text-xs">
+                <p>Source: WHO, TheLogicalIndian, TheTimesOfIndia</p>
+            </div>
+            <!--Myth Cards Ends-->
+        </main>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

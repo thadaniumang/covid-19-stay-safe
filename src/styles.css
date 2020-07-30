@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Varta:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.card{
+    @apply rounded bg-white shadow-sm overflow-hidden;
+}
+
+.circular-card{
+    @apply rounded-full bg-white overflow-hidden;
+}
+
+#line-1, #line-2, #line-3 {
+    width: 1.5rem;
+    height: 0.15rem;
+    background-color: rgb(77, 77, 77);
+    margin: 0.3rem 0;
+    transition: 0.4s;
+}
+  
+.change #line-1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 4px);
+    transform: rotate(-45deg) translate(-6px, 4px);
+}
+  
+.change #line-2 {
+    opacity: 0;
+}
+  
+.change #line-3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -4px);
+    transform: rotate(45deg) translate(-6px, -4px);
+}
