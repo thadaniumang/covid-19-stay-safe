@@ -56,10 +56,25 @@
         <!--Left Column Ends-->
 
         <!--Right Column Starts-->
-        <main class="px-12 py-3 bg-gray-100 md:col-span-3">
+        <main class="px-4 md:px-12 py-3 bg-gray-100 md:col-span-3">
             <header>
                 <h2 class="text-5xl font-semibold text-gray-700">Stay Aware</h2>
             </header>
+
+            <div class="flex justify-around mt-8 mx-0">
+                <div id="active" class="text-center">
+                    <h4 class="text-gray-800 text-xl md:text-2xl lg:text-3xl">Active</h4>
+                    <p class="text-gray-600 text-2xl md:text-3xl lg:text-5xl font-bsemiold">5,84,684</p>
+                </div>
+                <div id="recovered" class="text-center">
+                    <h4 class="text-gray-800 text-xl md:text-2xl lg:text-3xl">Recovered</h4>
+                    <p class="text-green-600 text-2xl md:text-3xl lg:text-5xl font-semibold">12,81,660</p>
+                </div>
+                <div id="active" class="text-center">
+                    <h4 class="text-gray-800 text-xl md:text-2xl lg:text-3xl">Death</h4>
+                    <p class="text-red-600 text-2xl md:text-3xl lg:text-5xl font-semibold">39,820</p>
+                </div>
+            </div>
 
             <!--Precaution Cards Starts-->
             <h4 class="text-gray-700 font-bold mt-12 pb-2 border-b border-color-200 text-center sm:text-left" id="Precautions">Precautions</h4>
@@ -229,26 +244,35 @@
             <div class="my-3 md:grid md:grid-cols-2 lg:grid-cols-3 space-y-10 md:space-y-0 gap-10">
                 <!-- cards go here -->
                 <div class="card md:col-span-2 hover:shadow-xl mt-10 md:mt-0">
-                    <img class="w-full h-56 object-cover" src="./images/favipiravir.png" alt="FluGuard">
+                    <img class="w-full h-56 object-contain" src="./images/google.gif" alt="Google">
                     <div class="m-2">
-                        <span class="md:text-lg">Sun Pharma launches FluGuard for treating COVID-19 patients</span>
-                        <span class="text-sm md:text-md block text-gray-500">Sun Pharma<span class="hidden md:inline">ceutical Industries</span>, on 4 August launched FluGuard (Favipiravir 200mg) at a price of Rs. 35 per tablet, for treating mild to moderate cases of COVID-19 in India.<span class="hidden md:inline"> Favipirarir was originally developed by Japan's Fujifilm Holdings Corpunder under the brand name Avigan for treating influenza. Favipiravir is the only oral anti-viral treatment approved in India for the potential treatment of patients with mild to moderate Covid-19 disease.</span> The stocks of FluGuard will be available in the market from this week.
+                        <span class="md:text-lg">Google asks netizens to wear a mask</span>
+                        <span class="text-sm md:text-md block text-gray-500">On 5 August 2020, Google sets its doodle asking everyone to follow the preventive measure to combat COVID-19 by wearing a mask.<span class="hidden md:inline">The screen-reader of doodle says: "Wear a mask. Save Lives. Help stop Coronavirus". Also, Google has added COVID-19 Tracker functionality in its Doodle, clicking on which it redirects you to a webpage consisting of Detailed Preventive measures and Coronavirus Statistics of your city, state, country and World.</span> 
                         </span>
                         <div class="flex justify-end text-xs mt-2">
-                            <pre>Source: <a href="https://www.livemint.com/science/news/at-rs-35-per-tablet-sun-pharma-launches-fluguard-for-covid-treatment-11596532805116.html" class="text-blue-500 hover:underline" target="_blank">LiveMint</a></pre>
+                            <pre>Source: <a href="https://www.google.com" target="_blank">Google</a></pre>
                         </div>
                     </div>
                 </div>
                 <div class="card hover:shadow-xl">
-                    <img class="w-full h-56 object-cover" src="./images/India.png" alt="India">
+                    <img class="w-full h-56 object-cover" src="./images/chennai.jpg" alt="Chennai">
                     <div class="m-2">
-                        <span class="md:text-lg">Recovery rate in India is now 66.25%, Delhi at 89.72%
+                        <span class="md:text-lg">No fresh active COVID-19 cases in Chennai in 40 days</span>
+                        <span class="text-sm md:text-md block text-gray-500">The number of active cases rose from 1007 on May 3 to 18673 on June 24. But thereafter there has been a fall to 15814 on July 14 and 11983 on August 3.
                         </span>
-                        <span class="text-sm md:text-md block text-gray-500">Although new cases are coming in huge numbers, recovery rate in India is now over 66.25%. Around 97% of total closed cases result in Recoveries.
+                        <div class="flex justify-end text-xs mt-2">
+                            <pre>Source: <a href="https://www.deccanchronicle.com/nation/current-affairs/040820/want-positive-news-no-fresh-active-covid-19-cases-in-chennai-in-40-da.html" class="text-blue-500 hover:underline" target="_blank">Deccan Chronicle</a></pre>
+                        </div>
+                    </div>
+                </div>
+                <div class="card hover:shadow-xl">
+                    <img class="w-full h-56 object-cover" src="./images/favipiravir.png" alt="FluGuard">
+                    <div class="m-2">
+                        <span class="md:text-lg">Sun Pharma launches FluGuard for treating COVID-19 patients</span>
+                        <span class="text-sm md:text-md block text-gray-500">Sun Pharma, on 4 August launched FluGuard (Favipiravir 200mg) at a price of Rs. 35 per tablet, for treating mild to moderate cases of COVID-19 in India.
                         </span>
-                        <div class="text-xs mt-2 text-right">
-                            <p>Data as of 4 August, 2020</p>
-                            <pre>Source: <a href="https://www.covid19india.org/" class="text-blue-500 hover:underline" target="_blank" >covid19india.org</a></pre>
+                        <div class="flex justify-end text-xs mt-2">
+                            <pre>Source: <a href="https://www.livemint.com/science/news/at-rs-35-per-tablet-sun-pharma-launches-fluguard-for-covid-treatment-11596532805116.html" class="text-blue-500 hover:underline" target="_blank">LiveMint</a></pre>
                         </div>
                     </div>
                 </div>
@@ -264,21 +288,10 @@
                     </div>
                 </div>
                 <div class="card hover:shadow-xl">
-                    <img class="w-full h-56 object-cover" src="./images/adar.jpg" alt="Adar Poonawalla">
-                    <div class="m-2">
-                        <span class="md:text-lg">Serum Institute ready to make 1 Billion COVID-19 vaccines</span>
-                        <span class="text-sm md:text-md block text-gray-500">The Serum Institute of India plans to make 1 billion doses of Oxford-designed vaccine. The Serum Institute is in partnership with Oxford University, AstraZenica.
-                        </span>
-                        <div class="flex justify-end text-xs mt-2">
-                            <pre>Source: <a href="https://twitter.com/i/events/1289634348564545536?s=20" class="text-blue-500 hover:underline" target="_blank">CNN News</a></pre>
-                        </div>
-                    </div>
-                </div>
-                <div class="card hover:shadow-xl">
                     <img class="w-full h-56 object-cover" src="./images/test.jpg" alt="Covid-19-Test">
                     <div class="m-2">
                         <span class="md:text-lg">COVID detection in 30 seconds?</span>
-                        <span class="text-sm md:text-md block text-gray-500">India has got support from Israel and is testing four technologies that can detect Coronavirus in 30 seconds. As per the plan, 10,000 people will be tested.
+                        <span class="text-sm md:text-md block text-gray-500">India has got support from Israel and is testing four technologies that can detect Coronavirus in 30 seconds. As per the plan, 10,000 people will be tested. Even if one of them succeeds, it will be a breakthrough.
                         </span>
                         <div class="flex justify-end text-xs mt-2">
                             <pre>Source: <a href="https://www.newsbytesapp.com/timeline/india/64055/301450/israeli-technologies-for-quick-covid-detection-being-tested" class="text-blue-500 hover:underline" target="_blank" >News Bytes</a></pre>

@@ -17920,6 +17920,26 @@ video {
   transform: rotate(45deg) translate(-6px, -4px);
 }
 
+@media(max-width: 300px){
+  .text-xl{
+    font-size: large;
+  }
+
+  .text-2xl{
+    font-size: larger;
+  }
+}
+
+@media(max-width: 250px){
+  .text-xl{
+    font-size: medium;
+  }
+
+  .text-2xl{
+    font-size: large;
+  }
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
