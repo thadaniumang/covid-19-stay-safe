@@ -12,7 +12,7 @@
         
         <!--Left Column Starts-->
         <div class="md:col-span-1 md:flex md:justify-end">
-            <nav class="md:fixed">
+            <nav class="fixed w-full md:w-auto bg-white">
                 <div class="text-gray-800 uppercase p-4 border-b border-gray-100 flex justify-between">
                     <h1>
                         <a href="../public/index.html" class="hover:text-gray-900 hover:font-semibold">
@@ -27,6 +27,12 @@
                     </div>    
                 </div>
                 <ul class="hidden md:block pt-3" id="menu">
+                    <li class="flex justify-center md:justify-end">
+                        <a href="#Statistics" class="hover:text-gray-700 flex items-start pr-3">
+                            <span>Corona-meter</span>
+                            <svg class="w-5 ml-2" fill="currentColor" viewBox="0 0 20 20"><path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"></path></svg>
+                        </a>
+                    </li>
                     <li class="flex justify-center md:justify-end">
                         <a href="#Precautions" class="hover:text-gray-700 flex items-start pr-3">
                             <span>Precautions</span>
@@ -56,11 +62,14 @@
         <!--Left Column Ends-->
 
         <!--Right Column Starts-->
-        <main class="px-4 md:px-12 py-3 bg-gray-100 md:col-span-3">
-            <header>
+        <main class="px-4 md:px-12 pt-16 md:py-3 bg-gray-100 md:col-span-3">
+            <header class="text-center md:text-left">
                 <h2 class="text-5xl font-semibold text-gray-700">Stay Aware</h2>
             </header>
-
+            <div class="md:flex justify-between align-middle pb-2 border-b border-color-200">
+                <h4 class="text-gray-700 font-bold mt-6 md:mt-12 text-center md:self-start" id="Statistics">Corona-meter India</h4>
+                <p class="text-center md:self-end mt-3 md:mr-5">Data as of 9:00 am, 6 August.</p>
+            </div>
             <div class="flex justify-around mt-8 mx-0">
                 <div id="active" class="text-center">
                     <h4 class="text-gray-800 text-xl md:text-2xl lg:text-3xl">Active</h4>
@@ -250,7 +259,7 @@
                         <span class="text-sm md:text-md block text-gray-500">On 5 August 2020, Google sets its doodle asking everyone to follow the preventive measure to combat COVID-19 by wearing a mask.<span class="hidden md:inline">The screen-reader of doodle says: "Wear a mask. Save Lives. Help stop Coronavirus". Also, Google has added COVID-19 Tracker functionality in its Doodle, clicking on which it redirects you to a webpage consisting of Detailed Preventive measures and Coronavirus Statistics of your city, state, country and World.</span> 
                         </span>
                         <div class="flex justify-end text-xs mt-2">
-                            <pre>Source: <a href="https://www.google.com" target="_blank">Google</a></pre>
+                            <pre>Source: <a href="https://www.google.com" class="text-blue-500 hover:underline" target="_blank">Google</a></pre>
                         </div>
                     </div>
                 </div>

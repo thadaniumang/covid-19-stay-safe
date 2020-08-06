@@ -17883,6 +17883,10 @@ video {
   transition-delay: 1000ms;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .card{
   border-radius: 0.25rem;
   --bg-opacity: 1;

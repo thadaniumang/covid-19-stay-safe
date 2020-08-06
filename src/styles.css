@@ -6,6 +6,10 @@
 
 @tailwind utilities;
 
+html{
+    scroll-behavior: smooth;
+}
+
 .card{
     @apply rounded bg-white shadow-sm overflow-hidden;
 }
