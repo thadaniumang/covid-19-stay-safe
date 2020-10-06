@@ -38,7 +38,7 @@ const setHTML = (data, tests) => {
     activeDaily.innerHTML += activeToday.toLocaleString('en-in');
     testNet.innerHTML = parseInt(tests.totalsamplestested).toLocaleString('en-in');
     testDaily.innerHTML += parseInt(tests.samplereportedtoday).toLocaleString('en-in');
-    positivity.innerHTML = `Positivity Rate : ${tests.testpositivityrate} %` + positivity.innerHTML;
+    positivity.innerHTML = `Positivity Rate : ${tests.testpositivityrate}` + positivity.innerHTML;
     date.innerHTML = `Data as of ${new Date().toLocaleString('en-in')}<br>Testing data as of ${tests.testedasof}`;
 }
 
